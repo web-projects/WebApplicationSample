@@ -29,22 +29,25 @@ This an application to review HttpClient Implementation.
    $ git config --global core.autocrlf true
 
 ### REFERENCE DOCUMENTATION ###
- * MicroServices Architecture https://learn.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests
+ * MicroServices Architecture
+
+   https://learn.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests
 
 * HttpClient Factory
-https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory
+
+  https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory
 
 * Guideliness for using HttpClient
 
-https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/http/httpclient-guidelines
+  https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/http/httpclient-guidelines
 
 * Updating to .NET 6
 
-https://andrewlock.net/exploring-dotnet-6-part-12-upgrading-a-dotnet-5-startup-based-app-to-dotnet-6/
+  https://andrewlock.net/exploring-dotnet-6-part-12-upgrading-a-dotnet-5-startup-based-app-to-dotnet-6/
 
 * Weather API
 
-https://www.weatherapi.com/api-explorer.aspx
+  https://www.weatherapi.com/api-explorer.aspx
 
 
 ### HISTORY ###
