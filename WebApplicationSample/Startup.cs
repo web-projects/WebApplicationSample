@@ -15,10 +15,12 @@ namespace WebApplicationSample
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
             //services.AddHttpClient("weather", c =>
             //{
             //    c.BaseAddress = new Uri("http://api.weatherapi.com/v1/current.json");
             //});
+
             services.AddHttpClient<IWeatherService, WeatherService>(c =>
             {
                 c.BaseAddress = new Uri("http://api.weatherapi.com/v1/current.json");

@@ -53,3 +53,4 @@ This an application to review HttpClient Implementation.
 ### HISTORY ###
 
 * 20221025 - Initial repository.
+* 20221026 - Added dependency injection for HttpClient.

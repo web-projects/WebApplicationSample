@@ -44,11 +44,10 @@ namespace WebApplicationSample
 
             // Fetch all the dependencies from the DI container 
             // As pointed out by DavidFowler, IHostApplicationLifetime is exposed directly on ApplicationBuilder
-            IHostApplicationLifetime hostLifetime = app.Services.GetRequiredService<IHostApplicationLifetime>();
+            //IHostApplicationLifetime hostLifetime = app.Services.GetRequiredService<IHostApplicationLifetime>();
             IWebHostEnvironment hostEnvironment = app.Services.GetRequiredService<IWebHostEnvironment>();
 
             // Call Configure(), passing in the dependencies
-            //startup.Configure(app, app.Lifetime);
             startup.Configure(app, hostEnvironment);
 
             app.Run();
