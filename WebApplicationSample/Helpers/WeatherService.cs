@@ -19,7 +19,7 @@ namespace WebApplicationSample.Helpers
 
         public WeatherService(HttpClient httpClient)
         {
-            this.httpClient = httpClient;
+            //this.httpClient = httpClient;
             using IKernel kernel = new AppKernelResolver().ResolveKernel();
             kernel.Inject(this);
         }
